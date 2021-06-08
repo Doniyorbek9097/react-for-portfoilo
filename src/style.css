@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
+  font-family: Lato;
+}
+
+header{
+  background-color: red;
+  width: 100%;
+  height: 80px;
+  display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.logo{
+  width: 30%;
+font-size: 40px;
+color: yellow;
+cursor: pointer;
+}
+
+.nav-list{
+  display: flex;
+}
+.nav-list li{
+  margin: 0 20px;
+  padding:5px 0px;
+  transition: 1s;
+  border-color: yellow;
+  font-size: 10px;
+  
+ 
+}
+
+.nav-list li:hover{
+   border-bottom: 1px solid;
+  
+   border-color: yellow;
+}
+
+.nav-list li a{
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
+  
+}
+
+.nav-list li a:hover{
+  color: yellow;
+}
+
+.Kategoriyalar{
+display: none;
+position: absolute;
+background-color: red;
+width:100px;
+}
+.Kategoriyalar-box:hover>.Kategoriyalar{
+  display: block;
+}
+
+
+.search-box{
+  padding: 5px 10px;
+  border-radius: 50px;
+  border:1px solid yellow ;
+  font-size:8px;
+  
+}
+/* header component style end !*/
+
