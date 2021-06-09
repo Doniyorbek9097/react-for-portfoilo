@@ -1,10 +1,10 @@
 import React from "react";
-
+import {FaSistrix } from 'react-icons/fa';
 export default function Navbar(){
   return(
     <nav>
     <ul className="nav-list">
-      <li><a href="#">Bosh sahifa</a></li>
+      <li><a href="#"> Bosh sahifa</a></li>
       <li><a href="#">Ishlar</a></li>
 
       <li className="Kategoriyalar-box"><a href="#">Kategoriyalar ⇲</a>
@@ -16,7 +16,6 @@ export default function Navbar(){
       <li><a href="#">android uchun ilovalar tuzish</a></li>
       </ul>
       </li>
-
       <li><a href="#">Yangiliklar</a></li>
       <li><a href="#">Haqida</a></li>
     </ul>
