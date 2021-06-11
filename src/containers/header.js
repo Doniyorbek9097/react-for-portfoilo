@@ -5,7 +5,7 @@ import Search from "../components/search";
 export default function Header(){
   return(
     <header>
-    <h1 className="logo">Portfoilo</h1>
+    <h1 className="logo">mySite</h1>
     <Navbar/>
     <Search/>
     </header>
